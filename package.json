@@ -1,0 +1,28 @@
+{
+  "name": "reversable-array-flatten",
+  "version": "0.0.1",
+  "description": "Reversable array flattening",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michiel/reversable-array%3Dflattening.git"
+  },
+  "keywords": [
+    "array",
+    "map",
+    "list",
+    "flatten",
+    "reverse",
+    "reversable"
+  ],
+  "author": "Michiel Kalkman <michiel@nosuchtype.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michiel/reversable-array%3Dflattening/issues"
+  },
+  "homepage": "https://github.com/michiel/reversable-array%3Dflattening#readme"
+}
+
