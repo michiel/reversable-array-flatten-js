@@ -4,7 +4,8 @@
   "description": "Reversable array flattening",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "lint": "eslint -c .eslintrc.js src"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,13 @@
   "bugs": {
     "url": "https://github.com/michiel/reversable-array%3Dflattening/issues"
   },
-  "homepage": "https://github.com/michiel/reversable-array%3Dflattening#readme"
+  "homepage": "https://github.com/michiel/reversable-array%3Dflattening#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
 }
-
