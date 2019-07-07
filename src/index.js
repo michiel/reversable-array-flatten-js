@@ -31,41 +31,7 @@ function flatten (arr) {
   return { restore, flatlist }
 }
 
-/*
-function testList (input) {
-  function jsonLog (o) {
-    console.log(JSON.stringify(o))
-  }
-
-  const add = (x) => x + 1
-  const subtract = (x) => x - 1
-
-  console.log('Testing input ', input)
-  jsonLog(input)
-  let res = flatten(input)
-  jsonLog(res.flatlist)
-  let resMap = res.flatlist.map(add)
-  jsonLog(resMap)
-  let restore = res.maker(resMap)
-  jsonLog(restore)
-
-  console.log('Testing reversing input ')
-  let res2 = flatten(restore)
-  jsonLog(res2.flatlist)
-  let resMap2 = res2.flatlist.map(subtract)
-  jsonLog(resMap2)
-  let restore2 = res2.maker(resMap2)
-  jsonLog(restore2)
-
-  console.log('')
-  console.log('')
-}
-*/
-
 module.exports = {
   flatten
 }
 
-// testList([1,2,3, [4, 5, [6, 7, [8, 9]]]]);
-// testList([[[[[1, 2]], 3]], [[4]], 5]);
-// testList([1, 2, 3, [4, 5, [6, 7, [8, 9]]]])

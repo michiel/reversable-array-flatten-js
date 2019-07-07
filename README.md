@@ -11,11 +11,11 @@ const initialArray = [1,2,3, [4, 5, [6, 7, [8, 9]]]];
 //       8, 9 
 //         ] ] ] ]
 
-const {restore, flattenedArray } = reversableFlatten(initialArry);
+const { restore, flatlist } = reversableFlatten(initialArry);
 
 const addOne = x=>x+1;
 
-const transformedArray = flattenedArray.map(addOne);
+const transformedArray = flatlist.map(addOne);
 const restoredArray = restore(transformedArray);
 
 // restoredArray is
